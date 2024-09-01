@@ -4,14 +4,14 @@
 * Place your groq API key in either notebook file or python file first, to implement this code.
 
 # Explanation
-The code takes video file as input and the process the followin steps
- * it convert video in to list of frames
+The code takes video file as input and the process through following steps
+ * It convert video in to list of frames
  * Remove background voice/noise
  * Caption frames into a list
  * Preprocessing using NLTK to remove stop words.
- * create cluster of different captions and pick the unique ones to avoid redundencies.
- * unique captions then fed to NLP model for summary.
- *8 summary then fed to gtts for audio output.
+ * Create cluster of different captions and pick the unique ones to avoid redundencies.
+ * Unique captions then fed to NLP model for summary.
+ * Summary then fed to gtts for audio output.
 
  # Models used
  * cv2  - for video to frames
