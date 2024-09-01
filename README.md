@@ -5,8 +5,8 @@
 
 # Explanation
 The code takes video file as input and the process through following steps:
- * It convert video in to list of frames
- * Remove background voice/noise
+ * It converts video in to list of frames
+ * Removes background voice/noise
  * Caption frames into a list
  * Preprocessing using NLTK to remove stop words.
  * Create cluster of different captions and pick the unique ones to avoid redundencies.
