@@ -4,7 +4,7 @@
 * Place your groq API key in either notebook file or python file first, to implement this code.
 
 # Explanation
-The code takes video file as input and the process through following steps
+The code takes video file as input and the process through following steps:
  * It convert video in to list of frames
  * Remove background voice/noise
  * Caption frames into a list
