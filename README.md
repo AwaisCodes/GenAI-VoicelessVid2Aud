@@ -9,7 +9,7 @@ The code takes video file as input and the process through following steps:
  * Removes background voice/noise
  * Caption frames into a list
  * Preprocessing using NLTK to remove stop words.
- * Create cluster of different captions and pick the unique ones to avoid redundencies.
+ * Create cluster of different captions and pick the unique ones to avoid redundancies.
  * Unique captions then fed to NLP model for summary.
  * Summary then fed to gtts for audio output.
 
